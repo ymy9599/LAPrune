@@ -84,3 +84,16 @@ python training/train_llama31_codebooks.py \
 ```
 
 Set `aq_codebook_dir` in a copied method config to your new directory and pass it with `--config`. Each training script exposes additional options through `--help`.
+
+## Citation
+
+If you find LAPrune useful, please cite our paper:
+
+```bibtex
+@inproceedings{yu2026laprune,
+  title     = {{LAPrune}: Logits-Aligned Scoring Proxy for {KV} Pruning via Vector Quantization},
+  author    = {Yu, Mingyang and Tu, Rong-Cheng and Ding, Yifu and Zhao, Hanqing and Jing, Yongcheng and Luo, Xiao and Tao, Dacheng},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2026}
+}
+```
