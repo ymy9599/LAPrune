@@ -2,8 +2,6 @@
 
 LAPrune accelerates LLM decoding with an attention-logit-aligned KV retrieval proxy built from additive quantization of post-RoPE keys. The base model requires no finetuning.
 
-This repository includes the paper implementation, pretrained AQ codebooks, codebook training, LongBench/RULER evaluation, and decode benchmarking.
-
 ## Installation
 
 Use Linux with an NVIDIA GPU and a CUDA toolkit. Tested with Python 3.12, CUDA 12.8, PyTorch 2.11.0, and Transformers 4.57.6.
