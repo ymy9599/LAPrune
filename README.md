@@ -19,7 +19,7 @@ Run the commands below from the repository root. Obtain access to the Llama chec
 
 | Model | Hugging Face checkpoint | Included codebooks |
 | --- | --- | --- |
-| Llama-2-7B (codebooks only) | `meta-llama/Llama-2-7b-hf` | `codebooks/llama2-7b/` |
+| Llama-2-7B | `meta-llama/Llama-2-7b-hf` | `codebooks/llama2-7b/` |
 | `llama31-8b-instruct` | `meta-llama/Llama-3.1-8B-Instruct` | `codebooks/llama31-8b-instruct/` |
 
 The pretrained codebooks are ready to use; no retraining is needed. Each layer uses 32 additive codebooks with 256 entries each. Experiment settings are in `configs/quality/`; decode benchmark settings are in `configs/decode/`.
